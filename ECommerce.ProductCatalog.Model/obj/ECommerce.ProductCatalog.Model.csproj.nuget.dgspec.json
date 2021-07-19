@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\localrepos\\ECommerce\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj": {}
+  },
+  "projects": {
+    "C:\\localrepos\\ECommerce\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\localrepos\\ECommerce\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj",
+        "projectName": "ECommerce.ProductCatalog.Model",
+        "projectPath": "C:\\localrepos\\ECommerce\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj",
+        "packagesPath": "C:\\Users\\yosaroya\\.nuget\\packages\\",
+        "outputPath": "C:\\localrepos\\ECommerce\\ECommerce.ProductCatalog.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yosaroya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://microsoft.pkgs.visualstudio.com/_packaging/WDATP/nuget/v3/index.json": {},
+          "https://microsoft.pkgs.visualstudio.com/_packaging/Wcd.Cloud.NetStd/nuget/v3/index.json": {},
+          "https://microsoft.pkgs.visualstudio.com/_packaging/Wcd.Cloud/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.ServiceFabric.Services.Remoting": {
+              "target": "Package",
+              "version": "[5.0.521, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

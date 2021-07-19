@@ -1,0 +1,9 @@
+C:\localrepos\ECommerce\ECommerce.ProductCatalog.Model\bin\Debug\netcoreapp3.1\ECommerce.ProductCatalog.Model.deps.json
+C:\localrepos\ECommerce\ECommerce.ProductCatalog.Model\bin\Debug\netcoreapp3.1\ECommerce.ProductCatalog.Model.dll
+C:\localrepos\ECommerce\ECommerce.ProductCatalog.Model\bin\Debug\netcoreapp3.1\ECommerce.ProductCatalog.Model.pdb
+C:\localrepos\ECommerce\ECommerce.ProductCatalog.Model\obj\Debug\netcoreapp3.1\ECommerce.ProductCatalog.Model.AssemblyInfoInputs.cache
+C:\localrepos\ECommerce\ECommerce.ProductCatalog.Model\obj\Debug\netcoreapp3.1\ECommerce.ProductCatalog.Model.AssemblyInfo.cs
+C:\localrepos\ECommerce\ECommerce.ProductCatalog.Model\obj\Debug\netcoreapp3.1\ECommerce.ProductCatalog.Model.csproj.CoreCompileInputs.cache
+C:\localrepos\ECommerce\ECommerce.ProductCatalog.Model\obj\Debug\netcoreapp3.1\ECommerce.ProductCatalog.Model.dll
+C:\localrepos\ECommerce\ECommerce.ProductCatalog.Model\obj\Debug\netcoreapp3.1\ECommerce.ProductCatalog.Model.pdb
+C:\localrepos\ECommerce\ECommerce.ProductCatalog.Model\obj\Debug\netcoreapp3.1\ECommerce.ProductCatalog.Model.csproj.AssemblyReference.cache
