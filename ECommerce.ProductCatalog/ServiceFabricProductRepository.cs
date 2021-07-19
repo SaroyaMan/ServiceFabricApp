@@ -22,7 +22,7 @@ namespace ECommerce.ProductCatalog
         {
             IReliableDictionary<Guid, Product> products = await _stateManager.GetOrAddAsync<IReliableDictionary<Guid, Product>>("products");
 
-            using(ITransaction tx = _stateManager.CreateTransaction())
+            using (ITransaction tx = _stateManager.CreateTransaction())
             {
                 await products.AddOrUpdateAsync(tx, product.Id, product, (id, value) => product);
                 await tx.CommitAsync();
@@ -38,9 +38,9 @@ namespace ECommerce.ProductCatalog
             {
                 var allProducts = await products.CreateEnumerableAsync(tx, EnumerationMode.Unordered);
 
-                using(var enumerator = allProducts.GetAsyncEnumerator())
+                using (var enumerator = allProducts.GetAsyncEnumerator())
                 {
-                    while(await enumerator.MoveNextAsync(CancellationToken.None))
+                    while (await enumerator.MoveNextAsync(CancellationToken.None))
                     {
                         var current = enumerator.Current;
                         result.Add(current.Value);

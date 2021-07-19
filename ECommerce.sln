@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "ECommerce", "ECommerce\ECommerce.sfproj", "{7414D6BD-FEF7-4D52-9250-47DFAA7B207F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.ProductCatalog", "ECommerce.ProductCatalog\ECommerce.ProductCatalog.csproj", "{6921D933-9925-4244-9636-F6BC2D9CBAD3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.ProductCatalog.Model", "ECommerce.ProductCatalog.Model\ECommerce.ProductCatalog.Model.csproj", "{48258A32-A424-4DA1-AF40-A132FB1C8D70}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.API", "ECommerce.API\ECommerce.API.csproj", "{035404AD-EBF2-48AF-8632-B14C7136CFE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.ProductCatalog", "ECommerce.ProductCatalog\ECommerce.ProductCatalog.csproj", "{EC6B1809-4241-4F85-B7CB-D7FF0110F4E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,14 +27,6 @@ Global
 		{7414D6BD-FEF7-4D52-9250-47DFAA7B207F}.Release|x64.ActiveCfg = Release|x64
 		{7414D6BD-FEF7-4D52-9250-47DFAA7B207F}.Release|x64.Build.0 = Release|x64
 		{7414D6BD-FEF7-4D52-9250-47DFAA7B207F}.Release|x64.Deploy.0 = Release|x64
-		{6921D933-9925-4244-9636-F6BC2D9CBAD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6921D933-9925-4244-9636-F6BC2D9CBAD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6921D933-9925-4244-9636-F6BC2D9CBAD3}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{6921D933-9925-4244-9636-F6BC2D9CBAD3}.Debug|x64.Build.0 = Debug|Any CPU
-		{6921D933-9925-4244-9636-F6BC2D9CBAD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6921D933-9925-4244-9636-F6BC2D9CBAD3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6921D933-9925-4244-9636-F6BC2D9CBAD3}.Release|x64.ActiveCfg = Release|Any CPU
-		{6921D933-9925-4244-9636-F6BC2D9CBAD3}.Release|x64.Build.0 = Release|Any CPU
 		{48258A32-A424-4DA1-AF40-A132FB1C8D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{48258A32-A424-4DA1-AF40-A132FB1C8D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48258A32-A424-4DA1-AF40-A132FB1C8D70}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -51,6 +43,14 @@ Global
 		{035404AD-EBF2-48AF-8632-B14C7136CFE6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{035404AD-EBF2-48AF-8632-B14C7136CFE6}.Release|x64.ActiveCfg = Release|Any CPU
 		{035404AD-EBF2-48AF-8632-B14C7136CFE6}.Release|x64.Build.0 = Release|Any CPU
+		{EC6B1809-4241-4F85-B7CB-D7FF0110F4E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC6B1809-4241-4F85-B7CB-D7FF0110F4E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC6B1809-4241-4F85-B7CB-D7FF0110F4E3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EC6B1809-4241-4F85-B7CB-D7FF0110F4E3}.Debug|x64.Build.0 = Debug|Any CPU
+		{EC6B1809-4241-4F85-B7CB-D7FF0110F4E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC6B1809-4241-4F85-B7CB-D7FF0110F4E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC6B1809-4241-4F85-B7CB-D7FF0110F4E3}.Release|x64.ActiveCfg = Release|Any CPU
+		{EC6B1809-4241-4F85-B7CB-D7FF0110F4E3}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
