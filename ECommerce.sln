@@ -5,19 +5,21 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "ECommerce", "ECommerce\ECommerce.sfproj", "{7414D6BD-FEF7-4D52-9250-47DFAA7B207F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.ProductCatalog.Model", "ECommerce.ProductCatalog.Model\ECommerce.ProductCatalog.Model.csproj", "{48258A32-A424-4DA1-AF40-A132FB1C8D70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.ProductCatalog.Model", "ECommerce.ProductCatalog.Model\ECommerce.ProductCatalog.Model.csproj", "{48258A32-A424-4DA1-AF40-A132FB1C8D70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.API", "ECommerce.API\ECommerce.API.csproj", "{035404AD-EBF2-48AF-8632-B14C7136CFE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.API", "ECommerce.API\ECommerce.API.csproj", "{035404AD-EBF2-48AF-8632-B14C7136CFE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.ProductCatalog", "ECommerce.ProductCatalog\ECommerce.ProductCatalog.csproj", "{EC6B1809-4241-4F85-B7CB-D7FF0110F4E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.ProductCatalog", "ECommerce.ProductCatalog\ECommerce.ProductCatalog.csproj", "{EC6B1809-4241-4F85-B7CB-D7FF0110F4E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserActor", "UserActor\UserActor.csproj", "{57DCD354-7654-4BD6-8BA9-9A3BD3807EA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserActor", "UserActor\UserActor.csproj", "{57DCD354-7654-4BD6-8BA9-9A3BD3807EA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserActor.Interfaces", "UserActor.Interfaces\UserActor.Interfaces.csproj", "{6F9B42A6-EF9D-4720-91F8-9D71F001730C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserActor.Interfaces", "UserActor.Interfaces\UserActor.Interfaces.csproj", "{6F9B42A6-EF9D-4720-91F8-9D71F001730C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.CheckoutService", "ECommerce.CheckoutService\ECommerce.CheckoutService.csproj", "{DA31489F-7AB0-4ED7-8592-DE1D12999F90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.CheckoutService", "ECommerce.CheckoutService\ECommerce.CheckoutService.csproj", "{DA31489F-7AB0-4ED7-8592-DE1D12999F90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.CheckoutService.Model", "ECommerce.CheckoutService.Model\ECommerce.CheckoutService.Model.csproj", "{2F55E440-07E2-40C3-997B-456EA8ED1096}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.CheckoutService.Model", "ECommerce.CheckoutService.Model\ECommerce.CheckoutService.Model.csproj", "{2F55E440-07E2-40C3-997B-456EA8ED1096}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeploymentScripts", "DeploymentScripts\DeploymentScripts.csproj", "{9D9D5AC0-38CE-4C74-9A20-CB607907007A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +93,14 @@ Global
 		{2F55E440-07E2-40C3-997B-456EA8ED1096}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2F55E440-07E2-40C3-997B-456EA8ED1096}.Release|x64.ActiveCfg = Release|Any CPU
 		{2F55E440-07E2-40C3-997B-456EA8ED1096}.Release|x64.Build.0 = Release|Any CPU
+		{9D9D5AC0-38CE-4C74-9A20-CB607907007A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D9D5AC0-38CE-4C74-9A20-CB607907007A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D9D5AC0-38CE-4C74-9A20-CB607907007A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9D9D5AC0-38CE-4C74-9A20-CB607907007A}.Debug|x64.Build.0 = Debug|Any CPU
+		{9D9D5AC0-38CE-4C74-9A20-CB607907007A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D9D5AC0-38CE-4C74-9A20-CB607907007A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D9D5AC0-38CE-4C74-9A20-CB607907007A}.Release|x64.ActiveCfg = Release|Any CPU
+		{9D9D5AC0-38CE-4C74-9A20-CB607907007A}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
