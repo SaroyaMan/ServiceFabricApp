@@ -5,6 +5,9 @@
     <Parameter Name="ECommerce.ProductCatalog_PartitionCount" DefaultValue="1" />
     <Parameter Name="ECommerce.ProductCatalog_TargetReplicaSetSize" DefaultValue="3" />
     <Parameter Name="ECommerce.API_InstanceCount" DefaultValue="-1" />
+    <Parameter Name="UserActorService_PartitionCount" DefaultValue="10" />
+    <Parameter Name="UserActorService_MinReplicaSetSize" DefaultValue="3" />
+    <Parameter Name="UserActorService_TargetReplicaSetSize" DefaultValue="3" />
   </Parameters>
   <Services>
     <!-- The section below creates instances of service types, when an instance of this 
@@ -21,6 +24,11 @@
       <StatelessService ServiceTypeName="ECommerce.APIType" InstanceCount="[ECommerce.API_InstanceCount]">
         <SingletonPartition />
       </StatelessService>
+    </Service>
+    <Service Name="UserActorService" GeneratedIdRef="4b9948eb-eb3c-4ff5-bb06-d626389cef2b|Persisted">
+      <StatefulService ServiceTypeName="UserActorServiceType" TargetReplicaSetSize="[UserActorService_TargetReplicaSetSize]" MinReplicaSetSize="[UserActorService_MinReplicaSetSize]">
+        <UniformInt64Partition PartitionCount="[UserActorService_PartitionCount]" LowKey="-9223372036854775808" HighKey="9223372036854775807" />
+      </StatefulService>
     </Service>
   </Services>
 </StartupServicesManifest>
